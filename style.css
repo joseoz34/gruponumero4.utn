@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+*{
+    font-family: 'Anuphan', sans-serif;
+}
+
+body{
+    background-image: url(imagenes/fondogrispantalla.webp);
+}
+section{
+    background-color: #000000fa;
+}
+.flex-container{
+    list-style-type: none;
+}
+.flex-container{
+    display: flex;
+}
+.flex-container div{
+    position: relative;
+    left: 150px;
+    top: 90px;
+}
+a{
+    text-decoration: none;
+}
+.flex-container a:link{
+    color: white;
+}
+.flex-container a:visited{
+    color: white;
+}
+.flex-container a:hover{
+    color: black;
+}
+.flex-container div{
+    color: white;
+    width: 200px;
+    height: 20px;
+    margin: 5px;
+    text-align: center;
+    border: 1.5px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    }
+.flex-container div:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.imagen1{
+    position: absolute;
+    left: 370px;
+}
+.nav{
+    width: 350px;
+}
+
+.list{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 16px 16px 0;
+    background: #ffffff;
+}
+
+.list__item{
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+}
+.list__button{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+h2{
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+.nav__link{
+    list-style: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.nav__link{
+    
+    color: black;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+.nav__link--inside{
+    border-radius: 6px;
+    padding-left: 20px;
+}
+.list__show{
+    width: 80%;
+    margin-left: auto;
+    border-left: 2px solid black;
+    transition: height .4s;
+    height: 0;
+}
+
+
+.formulario{
+    width: 500px;
+    color: white;
+    padding: 20px;
+    position: relative;
+    left: 30%;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(18, 4, 80), rgb(161, 161, 161))
+}
+.formulario1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.formulario2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.formulario3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify; 
+}
+.quienes{
+    width: 900px;     
+}
+.quienes1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 16px 16px 0;
+    background: #ffffff;
+    padding: 10px;
+}    
+.separadores{
+    background-image: url(imagenes/libreria\ juridica\ 3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    background-attachment:local;
+    background-size: cover;
+        
+}  
+.miembros{
+    width: 900px;
+}
+    
+.miembros1{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 16px 16px 0;
+    background: #ffffff;
+    padding: 10px;
+}
+.separadores2{
+    background-image: url(imagenes/libreria\ juridica\ 3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    background-attachment:local;
+    background-size: cover;
+}    
+.clientes{
+    width: 900px;
+}
+    
+.clientes1{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 16px 16px 0;
+    background: #ffffff;
+    padding: 10px;
+}
+.separadores3{
+    background-image: url(imagenes/libreria\ juridica\ 3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    background-attachment:local;
+    background-size: cover;
+}    
+.ubicacion{
+    width: 900px;
+}
+    
+.ubicacion1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 16px 16px 0;
+    background: #ffffff;
+    padding: 10px;
+}
+.separadores4{
+    background-image: url(imagenes/libreria\ juridica\ 3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    background-attachment:local;
+    background-size: cover;
+}    
+footer{
+    background-color: rgb(197, 197, 197);
+    text-align: center; 
+}
+.iconos img{
+    cursor: pointer;
+}
+.pdf{
+    margin: auto;
+    display: block;
+    width: 850px;
+    height: 100vh;
+    border-radius: 20px;
+}
+.ramas a:link{
+    color: white;
+}
+.ramas a:visited{
+    color: white;
+}
+.ramas a:hover{
+    color: white;
+}
+
+.contacto-fijo, .contacto-whatsapp{
+    background-color: white;
+    border: rgb(18, 4, 80);
+    color: white;
+    border-radius: 40%;
+    position: fixed;
+    padding: 20px;
+    bottom: 20px;
+    right: 20px;
+}
+
